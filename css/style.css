@@ -1,0 +1,1317 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1174px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #030D15;
+}
+
+nav {
+    background-color: #FFF;
+    /* padding-top: 25px; */
+    padding-bottom: 15px;
+}
+
+.nav-container {
+    position: fixed;
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.493);
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 100px;
+    gap: 40px;
+    list-style-type: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.nav-list a:hover {
+    color: #247CC0;
+    text-shadow: 1px 1px 10px #247CC0;
+}
+
+.nav-list-right {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+#main-1 {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: #FFF;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-container {
+    /* margin-top: -350px; */
+    width: 1274px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.main-info1 h3 {
+    margin-top: 109px;
+    width: 216px;
+    height: 26px;
+    flex-direction: column;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6000000238418579;
+}
+
+.main-info1 span {
+    display: flex;
+    width: 555px;
+    height: 220px;
+    width: 555px;
+    flex-direction: column;
+    color: #247CC0;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 73.2px;
+}
+
+.main-info1 h1 {
+    display: flex;
+    width: 555px;
+    height: 220px;
+    width: 555px;
+    flex-direction: column;
+    color: #030D15;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 73.2px;
+}
+
+.main-info-2 p {
+    display: flex;
+    margin-top: 29px;
+    width: 515px;
+    flex-direction: column;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.btn-2 {
+    display: flex;
+}
+
+.btn-2 button {
+    margin-top: 36px;
+    width: 151px;
+    height: 58px;
+    background: #247CC0;
+    border: none;
+}
+
+.btn-2 a {
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main-info1 h2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.btn-2 h4 {
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    color: #030D15;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.backg {
+    margin-top: -500px;
+    margin-left: 580px;
+    width: 623px;
+    height: 611px;
+    background-image: url(../images/robot.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-logo {
+    display: flex;
+    margin-top: -17px;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 237px;
+    column-gap: 84px;
+    box-shadow: 0px -1.7396812438964844px 1.2053217887878418px 0px rgba(174, 174, 174, 0.02), 0px 0.19007934629917145px 4.14346981048584px 0px rgba(174, 174, 174, 0.03), 0px 6.772141456604004px 9.613308906555176px 0px rgba(174, 174, 174, 0.04), 0px 19.84010124206543px 19.140562057495117px 0px rgba(174, 174, 174, 0.05), 0px 43.750999450683594px 36.44142150878906px 0px rgba(174, 174, 174, 0.06), 0px 100px 80px 0px rgba(174, 174, 174, 0.08);
+    background-color: #FFF;
+}
+
+.card-logo img {
+    width: 163px;
+    height: 85px;
+    flex-shrink: 0;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 90px;
+    width: 1140px;
+    height: 270px;
+    top: 1065px;
+    left: 230px;
+    background-color: white;
+}
+
+.section1-1 {
+    display: flex;
+    margin-left: -20px;
+    width: 50%;
+    height: 100%;
+}
+
+.section1-1-1 {
+    width: 262px;
+    height: 248px;
+    margin-top: 20px;
+}
+
+.section1-1-2 {
+    margin-left: 20px;
+    width: 256px;
+    height: 185px;
+    margin-top: 50px;
+}
+
+.s-1-1-2 {
+    font-family: Hind Siliguri;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.s-1-1-2-2 {
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inner-1 {
+    font-family: Hind Siliguri;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.inner-2 {
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #909091;
+}
+
+.section1-2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.section1-2-1 {
+    margin-top: 20px;
+    width: 262px;
+    height: 248px;
+}
+
+.section1-2-2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 256px;
+    height: 185px;
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 140px;
+    margin-left: 220px;
+    width: 1140px;
+    height: 333px;
+}
+
+.cards-1 {
+    display: flex;
+    margin-top: 160px;
+    width: 1140px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.left-card {
+    margin-left: -20px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: linear-gradient(232deg, #008BF0 0%, #D943C9 100%);
+}
+
+.info-3 h2 {
+    margin-left: 20px;
+    padding-top: 70px;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    opacity: 0.6000000238418579;
+}
+
+.info-3 h1 {
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 249px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: Hind Siliguri;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40.3px;
+    color: #F4F9FC;
+}
+
+.info-3 h3 {
+    margin-left: 20px;
+    padding-top: 7px;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+}
+
+.info-3 img {
+    display: flex;
+    margin-left: 220px;
+    margin-top: -240px;
+}
+
+.right-card {
+    margin-left: 20px;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: linear-gradient(232deg, #008BF0 0%, #D943C9 100%);
+
+}
+
+.info-4 h2 {
+    margin-left: 20px;
+    padding-top: 70px;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    opacity: 0.6000000238418579;
+}
+
+.info-4 h1 {
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 249px;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: Hind Siliguri;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40.3px;
+    color: #F4F9FC;
+}
+
+.info-4 h3 {
+    margin-left: 20px;
+    padding-top: 7px;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+}
+
+.info-4 img {
+    display: flex;
+    margin-left: 240px;
+    margin-top: -180px;
+}
+
+.about {
+    margin-top: 70px;
+    width: 100%;
+    height: 910px;
+    border: 1px solid #FFF;
+}
+
+.short-about {
+    margin-left: 650px;
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+}
+
+.short-about p {
+    color: #C72535;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+    opacity: 0.6000000238418579;
+}
+
+.short-about h1 {
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main-about {
+    display: flex;
+    margin-left: -20px;
+    width: 1174px;
+    height: 642px;
+    background-color: #F4F9FC;
+
+}
+
+.left-about {
+    margin-top: -150px;
+    margin-left: 50px;
+    width: 40%;
+    height: 100%;
+    background-image: url(../images/women.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.right-about {
+    margin-left: 90px;
+    width: 50%;
+    height: 100%;
+}
+
+.right-about p {
+    margin-top: 100px;
+    display: flex;
+    width: 457px;
+    flex-direction: column;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6000000238418579;
+}
+
+.list {
+    margin-left: 13px;
+    margin-top: 40px;
+    list-style-image: url(../images/galochka.png);
+}
+
+.list {
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.products {
+    margin-top: 124px;
+    width: 1170px;
+    height: 1319px;
+}
+
+.products h2 {
+    color: #C72535;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+    opacity: 0.6000000238418579;
+}
+
+.products h1 {
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.list2 {
+    margin-top: 22px;
+    margin-left: 320px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    column-gap: 40px;
+}
+
+.lists2 {
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cards-2 {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.card-2 {
+    width: 360px;
+    height: 503px;
+    border: 1px solid rgba(196, 196, 196, 0.986);
+}
+
+.card-2:hover {
+    box-shadow: 1px 1px 10px 2px #3284C4;
+
+}
+
+.pic {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 286px;
+    height: 273px;
+    background-image: url(../images/mouse.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic p {
+    margin-left: 25px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.card-info-1 {
+    margin-top: 35px;
+    width: 360px;
+    height: 160px;
+}
+
+.small-pic {
+    margin-top: 27px;
+    margin-left: 25px;
+    display: flex;
+    width: 18px;
+    height: 22px;
+    column-gap: 70px;
+}
+
+.price h3 {
+    margin-top: 42px;
+    margin-left: 25px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.price h4 {
+    margin-top: -27px;
+    margin-left: 90px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.star-5 img {
+    margin-left: 25px;
+}
+
+.color img {
+    margin-left: 230px;
+}
+
+.pic2 {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 286px;
+    height: 273px;
+    background-image: url(../images/speaker.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic2 p {
+    margin-left: 25px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.card-info-2 {
+    margin-top: 35px;
+    width: 360px;
+    height: 160px;
+}
+
+.card-info-2 h4 {
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.price-2 h3 {
+    margin-top: 25px;
+    margin-left: 35px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.price-2 h4 {
+    margin-top: -27px;
+    margin-left: 100px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.stars-5 img {
+    margin-left: 35px;
+}
+
+.card-2p p {
+    margin-top: 35px;
+    margin-left: 25px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.pic3 {
+    margin-top: 45px;
+    margin-left: 35px;
+    width: 265px;
+    height: 140px;
+    background-image: url(../images/keyboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card-info-3 {
+    margin-top: 96px;
+    width: 360px;
+    height: 160px;
+
+}
+
+.card-info-3 h4 {
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.price-3 h3 {
+    margin-top: 25px;
+    margin-left: 35px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.price-3 h4 {
+    margin-top: -27px;
+    margin-left: 100px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.pic4 {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 286px;
+    height: 273px;
+    background-image: url(../images/macbook.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic4 p {
+    font-family: Hind Siliguri;
+
+}
+
+.pic5 {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 286px;
+    height: 273px;
+    background-image: url(../images/headphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic5 p {
+    font-family: Hind Siliguri;
+
+}
+
+.price-5 h3 {
+    margin-top: 25px;
+    margin-left: 35px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.price-5 h4 {
+    margin-top: -27px;
+    margin-left: 100px;
+    display: flex;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.pic6 {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 286px;
+    height: 273px;
+    background-image: url(../images/iphone\ speaker.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic6 p {
+    font-family: Hind Siliguri;
+
+}
+
+.view {
+    display: flex;
+    margin-top: 56px;
+    margin-left: 530px;
+}
+
+.view h4 {
+    display: flex;
+    /* margin-top: 56px; */
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.view img {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 26px;
+    height: 10.165px;
+}
+
+.new-shop {
+    margin-top: 146px;
+    width: 1170px;
+    height: 1014px;
+}
+
+.new-shop h2 {
+    color: #C72535;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+    opacity: 0.6000000238418579;
+}
+
+.new-shop h1 {
+    margin-top: 22px;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.new-shop p {
+    margin-top: 7px;
+    margin-left: 345px;
+    width: 457px;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6000000238418579;
+}
+
+.shops {
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 22px;
+    display: flex;
+    text-align: center;
+    column-gap: 30px;
+}
+
+.shop-1 {
+    display: flex;
+    width: 360px;
+    height: 330px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-1-image {
+    margin-top: 70px;
+    margin-left: -70px;
+    width: 220px;
+    height: 161px;
+    background-image: url(../images/phone\ drop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-1 h3 {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 35px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.shop-1 h4 {
+    display: flex;
+    margin-top: 34px;
+    margin-left: 10px;
+    color: #030D15;
+    text-align: center;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    opacity: 0.5;
+}
+
+.shop-2 {
+    margin-left: -15px;
+    width: 360px;
+    height: 252px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-2-image {
+    margin-top: 18px;
+    margin-left: 26px;
+    width: 308px;
+    height: 216px;
+    background-image: url(../images/dron.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-3 {
+    margin-left: -15px;
+    width: 360px;
+    height: 432px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-3-image {
+    margin-top: 25px;
+    width: 297px;
+    height: 351px;
+    background-image: url(../images/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-4 {
+    margin-top: -80px;
+    width: 360px;
+    height: 456px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-4-image {
+    margin-top: 45px;
+    margin-left: 35px;
+    width: 286px;
+    height: 339px;
+    background-image: url(../images/ipad.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-5 {
+    margin-top: -160px;
+    margin-left: -15px;
+    width: 360px;
+    height: 252px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-5-image {
+    width: 360px;
+    height: 252px;
+    background-image: url(../images/little\ robot.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-6 {
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 360px;
+    height: 354px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-6-image {
+    width: 360px;
+    height: 354px;
+    background-image: url(../images/red\ earphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-7 {
+    margin-top: -255px;
+    margin-left: 375px;
+    width: 360px;
+    height: 252px;
+    box-shadow: 0px 0px 0px 1px #e4edf3;
+}
+
+.card-7-image {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 282px;
+    height: 198px;
+    background-image: url(../images/macbook\ pro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.use-contact {
+    margin-top: 130px;
+    width: 100%;
+    height: 310px;
+    border: 1px solid #F4F9FC;
+    background: #F4F9FC;
+}
+
+.left {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.left h4 {
+    color: #C72535;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.03px;
+    text-transform: uppercase;
+    opacity: 0.6000000238418579;
+}
+
+.left h3 {
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.left p {
+    width: 360px;
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    opacity: 0.6000000238418579;
+}
+
+.right {
+    width: 50%;
+}
+
+.subscribe {
+    margin-top: -80px;
+    margin-left: 800px;
+    width: 457px;
+    height: 50px;
+    background-image: url(../images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.end {
+    display: flex;
+    width: 100%;
+    height: 396px;
+    background: #030D15;
+}
+
+.middle-end {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 360px;
+    border: 1px solid #030D15;
+}
+
+.footer-1 {
+    margin-top: 80px;
+    margin-left: -20px;
+}
+
+.footer-1 p {
+    margin-top: 22px;
+    width: 261px;
+    height: 69px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.footer-2 {
+    margin-top: 75px;
+    margin-left: 32px;
+}
+
+.footer-2 h3 {
+    width: 164px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-lists {
+    list-style: none;
+}
+
+.footer-list {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.footer-3 {
+    margin-top: 75px;
+    margin-left: 31px;
+}
+
+.footer-3 h3 {
+    width: 164px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-lists-3 {
+    list-style: none;
+
+}
+
+.footer-list-3 {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.footer-4 {
+    margin-top: 75px;
+    margin-left: 31px;
+}
+
+.footer-4 h3 {
+    width: 164px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-lists-4 {
+    list-style: none;
+
+}
+
+.footer-list-4 {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.footer-5 {
+    margin-top: 75px;
+    margin-left: 31px;
+}
+
+.footer-5 h3 {
+    width: 164px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-5 p {
+    margin-top: 22px;
+    width: 261px;
+    height: 69px;
+    color: #FFF;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+}
+
+.footer-5 img{
+    margin-left: -30px;
+}
+
+.label-1{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+select{
+    color: #030D15;
+    font-family: Hind Siliguri;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
